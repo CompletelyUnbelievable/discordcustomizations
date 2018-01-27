@@ -1,0 +1,125 @@
+@import "../../shared";
+@import "variables";
+@import "resources";
+
+$theme-prefix: tbw;
+
+:root {
+  @each $variable-name, $variable-value in $theme-variables {
+    --i-#{$theme-prefix}-#{$variable-name}: #{$variable-value};
+  }
+}
+
+.titleBar-3_fDwJ {
+  background-color: useVariable($theme-prefix, bgcolor);
+  display: flex;
+  height: useVariable($theme-prefix, height);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  -webkit-app-region: drag;
+
+  &:after {
+    content: ' ';
+    display: block;
+    height: useVariable($theme-prefix, resizeheight);
+    width: calc(100vw - #{useVariable($theme-prefix, btnwidth)} * 3);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3002;
+    -webkit-app-region: no-drag;
+  }
+  .wordmark-2L03Wr {
+    background-image: useVariable($theme-prefix, logoimg);
+    background-size: useVariable($theme-prefix, logosize);
+    background-position-x: useVariable($theme-prefix, logooffset);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    opacity: useVariable($theme-prefix, logoopacity);
+    display: flex;
+    height: useVariable($theme-prefix, height);
+    width: calc(100vw - #{useVariable($theme-prefix, btnwidth)} * 3);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    svg {
+      display: none;
+    }
+  }
+  .winButton-U7zAqI {
+    background-size: useVariable($theme-prefix, btnimgsize);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-color .2s ease;
+    cursor: default;
+    display: flex;
+    height: useVariable($theme-prefix, height);
+    width: useVariable($theme-prefix, btnwidth);
+    position: relative;
+    top: 0;
+
+    svg {
+      display: none;
+    }
+    &:hover {
+      transition: none;
+    }
+    &.winButtonClose-2rIvsa {
+      &:hover {
+        background-color: useVariable($theme-prefix, closehover);
+      }
+      &:active {
+        background-color: useVariable($theme-prefix, closeactive);
+      }
+    }
+    &.winButtonMinMax-bT_gQ1 {
+      &:hover {
+        background-color: useVariable($theme-prefix, btnhover);
+      }
+      &:active {
+        background-color: useVariable($theme-prefix, btnactive);
+      }
+    }
+  }
+  div {
+    &:nth-of-type(2) {
+      background-image: useVariable($theme-prefix, closeimg);
+    }
+    &:nth-of-type(3) {
+      background-image: useVariable($theme-prefix, maximizeimg);
+    }
+    &:nth-of-type(4) {
+      background-image: useVariable($theme-prefix, minimizeimg);
+    }
+  }
+}
+
+
+#app-mount {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+
+  .popout {
+    .themed-popout {
+      max-height: calc(100vh - #{useVariable($theme-prefix, height)} - 48px - 20px) !important;
+    }
+  }
+  .ui-standard-sidebar-view {
+    .content-column, .custom-column {
+      min-height: calc(100vh - #{useVariable($theme-prefix, height)});
+    }
+  }
+  .modal-2LIEKY {
+    margin-top: useVariable($theme-prefix, height);
+    padding-top: calc(60px - #{useVariable($theme-prefix, height)});
+  }
+  .tooltip, .context-menu {
+    z-index: 3005;
+  }
+}

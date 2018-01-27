@@ -1,0 +1,97 @@
+:root {
+  --i-tbw-bgcolor: #282b30;
+  --i-tbw-height: 30px;
+  --i-tbw-resizeheight: 6px;
+  --i-tbw-logoimg: url("https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg");
+  --i-tbw-logosize: 60px 19px;
+  --i-tbw-logoopacity: 0.6;
+  --i-tbw-logooffset: 8px;
+  --i-tbw-btnwidth: 48px;
+  --i-tbw-btnimgsize: 12px;
+  --i-tbw-btnhover: rgba(255, 255, 255, 0.1);
+  --i-tbw-btnactive: rgba(255, 255, 255, 0.15);
+  --i-tbw-closehover: #e81123;
+  --i-tbw-closeactive: #bf0f1d;
+  --i-tbw-closeimg: url("https://cdn.discordapp.com/attachments/406779086246248449/406779128495341568/btn-close.svg");
+  --i-tbw-maximizeimg: url("https://cdn.discordapp.com/attachments/406779086246248449/406779128323506177/btn-maximize.svg");
+  --i-tbw-minimizeimg: url("https://cdn.discordapp.com/attachments/406779086246248449/406779128273174529/btn-minimize.svg"); }
+
+.titleBar-3_fDwJ {
+  background-color: var(--i-tbw-bgcolor);
+  display: flex;
+  height: var(--i-tbw-height);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  -webkit-app-region: drag; }
+  .titleBar-3_fDwJ:after {
+    content: ' ';
+    display: block;
+    height: var(--i-tbw-resizeheight);
+    width: calc(100vw - var(--i-tbw-btnwidth) * 3);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3002;
+    -webkit-app-region: no-drag; }
+  .titleBar-3_fDwJ .wordmark-2L03Wr {
+    background-image: var(--i-tbw-logoimg);
+    background-size: var(--i-tbw-logosize);
+    background-position-x: var(--i-tbw-logooffset);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    opacity: var(--i-tbw-logoopacity);
+    display: flex;
+    height: var(--i-tbw-height);
+    width: calc(100vw - var(--i-tbw-btnwidth) * 3);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+    .titleBar-3_fDwJ .wordmark-2L03Wr svg {
+      display: none; }
+  .titleBar-3_fDwJ .winButton-U7zAqI {
+    background-size: var(--i-tbw-btnimgsize);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-color .2s ease;
+    cursor: default;
+    display: flex;
+    height: var(--i-tbw-height);
+    width: var(--i-tbw-btnwidth);
+    position: relative;
+    top: 0; }
+    .titleBar-3_fDwJ .winButton-U7zAqI svg {
+      display: none; }
+    .titleBar-3_fDwJ .winButton-U7zAqI:hover {
+      transition: none; }
+    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover {
+      background-color: var(--i-tbw-closehover); }
+    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:active {
+      background-color: var(--i-tbw-closeactive); }
+    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover {
+      background-color: var(--i-tbw-btnhover); }
+    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:active {
+      background-color: var(--i-tbw-btnactive); }
+  .titleBar-3_fDwJ div:nth-of-type(2) {
+    background-image: var(--i-tbw-closeimg); }
+  .titleBar-3_fDwJ div:nth-of-type(3) {
+    background-image: var(--i-tbw-maximizeimg); }
+  .titleBar-3_fDwJ div:nth-of-type(4) {
+    background-image: var(--i-tbw-minimizeimg); }
+
+#app-mount {
+  position: fixed;
+  height: 100vh;
+  width: 100vw; }
+  #app-mount .popout .themed-popout {
+    max-height: calc(100vh - var(--i-tbw-height) - 48px - 20px) !important; }
+  #app-mount .ui-standard-sidebar-view .content-column, #app-mount .ui-standard-sidebar-view .custom-column {
+    min-height: calc(100vh - var(--i-tbw-height)); }
+  #app-mount .modal-2LIEKY {
+    margin-top: var(--i-tbw-height);
+    padding-top: calc(60px - var(--i-tbw-height)); }
+  #app-mount .tooltip, #app-mount .context-menu {
+    z-index: 3005; }

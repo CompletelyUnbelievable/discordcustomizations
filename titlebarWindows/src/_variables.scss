@@ -1,0 +1,33 @@
+@import "resources";
+
+// These are the default variables used on the theme.
+// Note that the variables are prefixed,
+// e.g. bgcolor might become --i-tbw-bgcolor
+
+$theme-variables: (
+  // Main titlebar
+  bgcolor: #282b30,
+  height: 30px,
+  resizeheight: 6px,
+
+  // Logo on the left side of the titlebar
+  logoimg: getResource("titlebar logo"),
+  logosize: 60px 19px,
+  logoopacity: .6,
+  logooffset: 8px,
+
+  // Titlebar buttons
+  btnwidth: 48px,
+  btnimgsize: 12px,
+
+  // Titlebar buttons when hovered or pressed
+  btnhover: rgba(255,255,255,0.1),
+  btnactive: rgba(255,255,255,0.15),
+  closehover: #e81123,
+  closeactive: #bf0f1d,
+
+  // Titlebar button images
+  closeimg: getResource("button close"),
+  maximizeimg: getResource("button maximize"),
+  minimizeimg: getResource("button minimize"),
+);
