@@ -1,3 +1,8 @@
 /*//META{"name":"titlebarRevert","description":"Reverts the titlebar on Windows to the old look.","author":"intrnl","version":"0.0"}*//**/
 
 @import url("https://intrnl.github.io/discordcustomizations/titlebarRevert/dist/themefile.css");
+
+/*
+  Looking for variables to change?
+  https://github.com/intrnl/discordcustomizations/blob/master/titlebarRevert/src/_variables.scss
+*/
