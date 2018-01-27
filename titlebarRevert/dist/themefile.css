@@ -1,0 +1,58 @@
+:root {
+  --i-tbr-btninvert: 0%;
+  --i-tbr-closeimg: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041270464522/btn-close.svg");
+  --i-tbr-maximizeimg: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041064943617/btn-maximize.svg");
+  --i-tbr-minimizeimg: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041409138688/btn-minimize.svg"); }
+
+.titleBar-3_fDwJ {
+  height: 30px;
+  width: calc(30px * 3);
+  margin: 0;
+  padding: 9px 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-app-region: no-drag; }
+  .titleBar-3_fDwJ:before {
+    content: ' ';
+    display: block;
+    height: 14px;
+    width: 100vw;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    z-index: 3000;
+    -webkit-app-region: drag; }
+  .titleBar-3_fDwJ .winButton-U7zAqI {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    background-size: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .6;
+    filter: var(--i-tbr-btninvert); }
+    .titleBar-3_fDwJ .winButton-U7zAqI:hover {
+      opacity: .8; }
+  .titleBar-3_fDwJ div:nth-of-type(2) {
+    background-image: var(--i-tbr-closeimg); }
+  .titleBar-3_fDwJ div:nth-of-type(3) {
+    background-image: var(--i-tbr-maximizeimg); }
+  .titleBar-3_fDwJ div:nth-of-type(4) {
+    background-image: var(--i-tbr-minimizeimg); }
+  .titleBar-3_fDwJ .wordmark-2L03Wr, .titleBar-3_fDwJ .winButton-U7zAqI svg {
+    display: none; }
+
+.title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe, .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe, .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe {
+  margin-right: 98px; }
+  .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
+    content: ' ';
+    height: 22px;
+    width: 1px; }
+    .theme-dark .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .theme-dark .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .theme-dark .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
+      background-color: rgba(247, 247, 248, 0.1); }
+    .theme-light .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .theme-light .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .theme-light .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
+      background-color: rgba(114, 118, 126, 0.3); }

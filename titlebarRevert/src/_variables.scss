@@ -1,0 +1,12 @@
+@import "resources";
+
+// These are the default variables used on the theme.
+// Note that the variables are prefixed,
+// e.g. bgcolor might become --i-tbw-bgcolor
+
+$theme-variables: (
+  btninvert: 0%,
+  closeimg: getResource("button close"),
+  maximizeimg: getResource("button maximize"),
+  minimizeimg: getResource("button minimize"),
+);
