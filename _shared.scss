@@ -1,0 +1,9 @@
+@function getResource($resource-name) {
+  @return url("#{map-get($theme-resources, $resource-name)}");
+}
+@function getVariable($variable-name) {
+  @return map-get($theme-variables, $variable-name);
+}
+@function useVariable($prefix, $variable-name) {
+  @return var(--i-#{$prefix}-#{$variable-name});
+}
