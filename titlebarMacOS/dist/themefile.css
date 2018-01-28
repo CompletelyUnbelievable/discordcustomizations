@@ -54,7 +54,7 @@
     .titleBar-3_fDwJ div:nth-of-type(4) svg {
       background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254316204035/btn-minimize.svg"); }
     .titleBar-3_fDwJ div:nth-of-type(4):active {
-      background-color: #2a9f3a; }
+      background-color: #ca9633; }
 
 #app-mount .guilds-wrapper {
   margin-top: 32px; }
