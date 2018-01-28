@@ -17,6 +17,10 @@
 		{
 			"src": "codeblockLangIdentifier/src",
 			"dest": "codeblockLangIdentifier/dist"
+		},
+		{
+			"src": "emojiNotoBlobs/src",
+			"dest": "emojiNotoBlobs/dist"
 		}
 	],
 
