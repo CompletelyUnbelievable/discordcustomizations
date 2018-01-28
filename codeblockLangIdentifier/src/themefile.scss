@@ -1,0 +1,19 @@
+@import "languages";
+
+.message-group {
+  .hljs {
+    &:before {
+      pointer-events: none;
+      display: block;
+      margin: 0 0 10px 0;
+      font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    }
+    @each $l in map-keys($languages) {
+      @each $e in map-get($languages, $l) {
+        &[class~="#{$e}" i]:before {
+          content: "#{$l}";
+        }
+      }
+    }
+  }
+}

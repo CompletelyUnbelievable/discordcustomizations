@@ -13,6 +13,10 @@
 		{
 			"src": "titlebarMacOS/src",
 			"dest": "titlebarMacOS/dist"
+		},
+		{
+			"src": "codeblockLangIdentifier/src",
+			"dest": "codeblockLangIdentifier/dist"
 		}
 	],
 
