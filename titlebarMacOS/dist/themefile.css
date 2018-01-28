@@ -1,0 +1,89 @@
+.titleBar-3_fDwJ {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 70px;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3001;
+  -webkit-app-region: no-drag; }
+  .titleBar-3_fDwJ:not(:hover) .winButton-U7zAqI svg {
+    visibility: hidden; }
+  .titleBar-3_fDwJ .wordmark-2L03Wr {
+    display: none; }
+  .titleBar-3_fDwJ .winButton-U7zAqI {
+    opacity: 1;
+    cursor: default;
+    pointer-events: auto;
+    display: flex;
+    height: 12px;
+    width: 12px;
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    -webkit-app-region: no-drag; }
+    .titleBar-3_fDwJ .winButton-U7zAqI svg {
+      background-size: 8px;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .titleBar-3_fDwJ .winButton-U7zAqI svg rect, .titleBar-3_fDwJ .winButton-U7zAqI svg polygon {
+        display: none; }
+  .titleBar-3_fDwJ div:nth-of-type(2) {
+    background-color: #fc615d;
+    order: 1; }
+    .titleBar-3_fDwJ div:nth-of-type(2) svg {
+      background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254282518539/btn-close.svg"); }
+    .titleBar-3_fDwJ div:nth-of-type(2):active {
+      background-color: #ca4e4a; }
+  .titleBar-3_fDwJ div:nth-of-type(3) {
+    background-color: #34c749;
+    order: 3; }
+    .titleBar-3_fDwJ div:nth-of-type(3) svg {
+      background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254508879872/btn-maximize.svg"); }
+    .titleBar-3_fDwJ div:nth-of-type(3):active {
+      background-color: #2a9f3a; }
+  .titleBar-3_fDwJ div:nth-of-type(4) {
+    background-color: #fdbc40;
+    order: 2; }
+    .titleBar-3_fDwJ div:nth-of-type(4) svg {
+      background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254316204035/btn-minimize.svg"); }
+    .titleBar-3_fDwJ div:nth-of-type(4):active {
+      background-color: #2a9f3a; }
+
+#app-mount .guilds-wrapper {
+  margin-top: 32px; }
+#app-mount .headerBar-cxbhPD, #app-mount .title-qAcLxz, #app-mount .titleCall-3X0yGQ, #app-mount .notice {
+  -webkit-app-region: drag; }
+  #app-mount .headerBar-cxbhPD:before, #app-mount .title-qAcLxz:before, #app-mount .titleCall-3X0yGQ:before, #app-mount .notice:before {
+    content: ' ';
+    display: block;
+    height: 4px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3005;
+    -webkit-app-region: no-drag; }
+#app-mount .container-2oOGIt {
+  padding-top: 0;
+  top: 0; }
+#app-mount .container-2oOGIt:before, #app-mount .backdrop-2ohBEd:before, #app-mount .layer .ui-standard-sidebar-view:before {
+  content: '';
+  display: block;
+  height: calc(32px - 4px);
+  width: calc(100vw - 70px);
+  position: absolute;
+  top: 4px;
+  right: 0;
+  z-index: 3005;
+  -webkit-app-region: drag; }
+#app-mount .title-qAcLxz .titleText-2IfpkV {
+  -webkit-app-region: no-drag; }
+#app-mount .title-qAcLxz .topic-1KFf6J.expandable-1er6r1 {
+  -webkit-app-region: no-drag; }

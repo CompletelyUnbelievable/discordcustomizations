@@ -9,6 +9,10 @@
 		{
 			"src": "titlebarWindows/src",
 			"dest": "titlebarWindows/dist"
+		},
+		{
+			"src": "titlebarMacOS/src",
+			"dest": "titlebarMacOS/dist"
 		}
 	],
 

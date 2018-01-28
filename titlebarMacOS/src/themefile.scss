@@ -1,0 +1,135 @@
+@import "../../shared";
+@import "resources";
+
+.titleBar-3_fDwJ {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 70px;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3001;
+  -webkit-app-region: no-drag;
+
+  &:not(:hover) {
+    .winButton-U7zAqI {
+      svg {
+        visibility: hidden;
+      }
+    }
+  }
+  .wordmark-2L03Wr {
+    display: none;
+  }
+  .winButton-U7zAqI {
+    opacity: 1;
+    cursor: default;
+    pointer-events: auto;
+    display: flex;
+    height: 12px;
+    width: 12px;
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    -webkit-app-region: no-drag;
+
+    svg {
+      background-size: 8px;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      rect, polygon {
+        display: none;
+      }
+    }
+  }
+  div {
+    &:nth-of-type(2) {
+      background-color: #fc615d;
+      order: 1;
+
+      svg {
+        background-image: getResource("button close");
+      }
+      &:active {
+        background-color: #ca4e4a;
+      }
+    }
+    &:nth-of-type(3) {
+      background-color: #34c749;
+      order: 3;
+
+      svg {
+        background-image: getResource("button maximize");
+      }
+      &:active {
+        background-color: #2a9f3a;
+      }
+    }
+    &:nth-of-type(4) {
+      background-color: #fdbc40;
+      order: 2;
+
+      svg {
+        background-image: getResource("button minimize");
+      }
+      &:active {
+        background-color: #2a9f3a;
+      }
+    }
+  }
+}
+
+#app-mount {
+  .guilds-wrapper {
+    margin-top: 32px;
+  }
+  .headerBar-cxbhPD, .title-qAcLxz, .titleCall-3X0yGQ, .notice {
+    -webkit-app-region: drag;
+
+    &:before {
+      content: ' ';
+      display: block;
+      height: 4px;
+      width: 100vw;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3005;
+      -webkit-app-region: no-drag;
+    }
+  }
+  .container-2oOGIt {
+    padding-top: 0;
+    top: 0;
+  }
+  .container-2oOGIt, .backdrop-2ohBEd, .layer .ui-standard-sidebar-view {
+    &:before {
+      content: '';
+      display: block;
+      height: calc(32px - 4px);
+      width: calc(100vw - 70px);
+      position: absolute;
+      top: 4px;
+      right: 0;
+      z-index: 3005;
+      -webkit-app-region: drag;
+    }
+  }
+  .title-qAcLxz {
+    .titleText-2IfpkV {
+      -webkit-app-region: no-drag;
+    }
+    .topic-1KFf6J {
+      &.expandable-1er6r1 {
+        -webkit-app-region: no-drag;
+      }
+    }
+  }
+}
