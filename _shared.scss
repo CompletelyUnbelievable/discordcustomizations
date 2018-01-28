@@ -7,3 +7,11 @@
 @function useVariable($prefix, $variable-name) {
   @return var(--i-#{$prefix}-#{$variable-name});
 }
+@function collectMaps($maps...) {
+  $collection: ();
+
+  @each $map in $maps {
+    $collection: map-merge($collection, $map);
+  }
+  @return $collection;
+}
