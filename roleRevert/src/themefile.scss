@@ -1,0 +1,85 @@
+@import "../../shared";
+@import "variables";
+@import "resources";
+
+$theme-variable: rrv;
+
+:root {
+  @each $variable-name, $variable-value in $theme-variables {
+    --i-#{$theme-variable}-#{$variable-name}: #{$variable-value};
+  }
+}
+
+.appMount-14L89u .role-3rahR_ {
+  color: #f6f6f7;
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  margin: 0 4px 5px 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    opacity: useVariable($theme-variable, bgopacity);
+    content: '';
+    display: block;
+    height: 27px;
+    width: 0;
+    border-right-width: 358px;
+    border-right-style: solid;
+    border-right-color: inherit;
+    box-sizing: border-box;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    z-index: 3;
+  }
+  &.addButton-3RuTE0 {
+    background-image: getResource("add");
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: transparent !important;
+    cursor: pointer;
+    border: 0;
+
+    .addButtonIcon-3GVNfn {
+      display: none;
+    }
+  }
+  &.actionButton-2mkkT2 {
+    width: 25px;
+    border-color: transparent;
+  }
+  .roleName-DUQZ9m {
+    display: flex;
+    order: 1;
+    height: inherit;
+    margin: 0 6px 0 6px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    z-index: 4;
+  }
+  .roleCircle-3-vPZq {
+    background-image: getResource("close");
+    background-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    display: flex;
+    order: 2;
+    height: 25px;
+    margin: 0 6px 0 0;
+    z-index: 5;
+
+    &:not(.roleCircleButton-sMOdib), svg {
+      display: none;
+    }
+  }
+}

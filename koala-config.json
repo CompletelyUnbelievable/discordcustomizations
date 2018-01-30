@@ -21,6 +21,10 @@
 		{
 			"src": "emojiNotoBlobs/src",
 			"dest": "emojiNotoBlobs/dist"
+		},
+		{
+			"src": "roleRevert/src",
+			"dest": "roleRevert/dist"
 		}
 	],
 

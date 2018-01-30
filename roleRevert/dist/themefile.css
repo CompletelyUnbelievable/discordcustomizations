@@ -1,0 +1,65 @@
+:root {
+  --i-rrv-bgopacity: 0.15; }
+
+.appMount-14L89u .role-3rahR_ {
+  color: #f6f6f7;
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  margin: 0 4px 5px 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden; }
+  .appMount-14L89u .role-3rahR_::before {
+    opacity: var(--i-rrv-bgopacity);
+    content: '';
+    display: block;
+    height: 27px;
+    width: 0;
+    border-right-width: 358px;
+    border-right-style: solid;
+    border-right-color: inherit;
+    box-sizing: border-box;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    z-index: 3; }
+  .appMount-14L89u .role-3rahR_.addButton-3RuTE0 {
+    background-image: url("https://cdn.discordapp.com/attachments/390781981979574293/394439381450227713/ic_add_white_24px.svg");
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: transparent !important;
+    cursor: pointer;
+    border: 0; }
+    .appMount-14L89u .role-3rahR_.addButton-3RuTE0 .addButtonIcon-3GVNfn {
+      display: none; }
+  .appMount-14L89u .role-3rahR_.actionButton-2mkkT2 {
+    width: 25px;
+    border-color: transparent; }
+  .appMount-14L89u .role-3rahR_ .roleName-DUQZ9m {
+    display: flex;
+    order: 1;
+    height: inherit;
+    margin: 0 6px 0 6px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    z-index: 4; }
+  .appMount-14L89u .role-3rahR_ .roleCircle-3-vPZq {
+    background-image: url("https://cdn.discordapp.com/attachments/390781981979574293/394439381324398594/ic_close_white_24px.svg");
+    background-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    display: flex;
+    order: 2;
+    height: 25px;
+    margin: 0 6px 0 0;
+    z-index: 5; }
+    .appMount-14L89u .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib), .appMount-14L89u .role-3rahR_ .roleCircle-3-vPZq svg {
+      display: none; }

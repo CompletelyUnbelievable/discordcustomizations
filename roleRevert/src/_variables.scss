@@ -1,0 +1,10 @@
+@import "resources";
+
+// These are the default variables used on the theme.
+// Note that the variables are prefixed,
+// e.g. bgcolor might become --i-tbw-bgcolor
+
+$theme-variables: (
+  // Set the opacity for the role background.
+  bgopacity: .15,
+);
