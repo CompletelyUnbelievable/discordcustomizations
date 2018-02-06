@@ -364,6 +364,8 @@
   content: "NSIS"; }
 .message-group .hljs[class~="objectivec" i]:before {
   content: "Objective-C"; }
+.message-group .hljs[class~="objc" i]:before {
+  content: "Objective-C"; }
 .message-group .hljs[class~="ocaml" i]:before {
   content: "OCaml"; }
 .message-group .hljs[class~="openscad" i]:before {
