@@ -3,6 +3,10 @@
 	// The mappings of source directory and output directory
 	"mappings": [
 		{
+			"src": "emojiNotoColor/src",
+			"dest": "emojiNotoColor/dist"
+		},
+		{
 			"src": "titlebarRevert/src",
 			"dest": "titlebarRevert/dist"
 		},
