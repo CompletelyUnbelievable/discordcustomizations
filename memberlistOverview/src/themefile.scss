@@ -3,36 +3,50 @@
   min-width: unset;
 
   .scrollerWrap-2uBjct {
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6);
-    transition: right .2s ease;
+    box-shadow: 0 0;
     position: absolute;
     top: 0;
     bottom: 0;
     left: unset;
-    right: 0;
+    right: -(240px) + 90px;
   }
   .channel-members {
+    height: 156%;
     width: 240px;
+    padding: 15px 0;
+    overflow-y: hidden;
+
+    .old-h2 {
+      display: none;
+    }
+    .member {
+      .avatar-small {
+        margin-right: 0;
+      }
+      .member-inner {
+        display: none;
+      }
+    }
   }
-  &:not(:hover) {
+  &:hover {
     .scrollerWrap-2uBjct {
-      box-shadow: 0 0;
-      right: -(240px) + 90px;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6);
+      right: 0;
     }
     .channel-members {
-      height: 156%;
-      padding: 15px 0;
-      overflow-y: hidden;
+      height: 100%;
+      padding: 0 0 20px;
+      overflow-y: scroll;
 
       .old-h2 {
-        display: none;
+        display: block;
       }
       .member {
         .avatar-small {
-          margin-right: 0;
+          margin-right: 10px;
         }
         .member-inner {
-          display: none;
+          display: block;
         }
       }
     }
