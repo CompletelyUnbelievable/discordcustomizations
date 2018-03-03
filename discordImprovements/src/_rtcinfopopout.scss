@@ -1,0 +1,27 @@
+
+.container-1WaXoH {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+  width: 255px;
+
+  header {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .theme-dark & {
+    header {
+      background-color: #35393e;
+      color: #fff;
+      box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    }
+  }
+  .theme-light & {
+    header {
+      color: #737f8d;
+    }
+  }
+}

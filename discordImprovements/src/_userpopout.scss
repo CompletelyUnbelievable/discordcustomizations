@@ -1,0 +1,58 @@
+
+.userPopout-11hFKo {
+  .header-3budic {
+    .botTag-1OwMgs {
+      background: #7289da;
+      color: #fff;
+    }
+
+    &.headerPlaying-2Q7mBy, &.headerStreaming-lmgoma, &.headerSpotify-26yUf5 {
+      & ~ .body-3ljq11 {
+        box-shadow: 0 0;
+      }
+    }
+  }
+  .footer-2wFs91 {
+    border-top: 0;
+  }
+
+  .theme-dark & {
+    .header-3budic {
+      background-color: #35393e;
+
+      .headerTag-I11IJx {
+        color: hsla(0,0%,100%,.6);
+      }
+      .headerName-3U6eDn, .headerTagUsernameNoNickname-22Y2PV {
+        color: #fff;
+      }
+    }
+    .activity-3NviKQ, .body-3ljq11 {
+      background-color: #2f3136;
+      box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    }
+    .footer-2wFs91 {
+      background-color: #2b2d32;
+    }
+  }
+
+  .theme-light & {
+    .header-3budic {
+      background-color: #fff;
+
+      .headerTag-I11IJx {
+        color: #b9bbbe;
+      }
+      .headerName-3U6eDn, .headerTagUsernameNoNickname-22Y2PV {
+        color: #4f545c;
+      }
+    }
+    .activity-3NviKQ, .body-3ljq11 {
+      background-color: #fff;
+      box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    }
+    .footer-2wFs91 {
+      background-color: #f5f7f8;
+    }
+  }
+}
