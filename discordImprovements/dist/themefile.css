@@ -275,6 +275,81 @@
         color: #b9bbbe; }
       .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group label, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group label {
         color: #72767d; }
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox {
+      pointer-events: none;
+      display: flex;
+      flex-direction: row; }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner + span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner + span {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        cursor: default;
+        order: 1;
+        flex-grow: 1;
+        margin: 0; }
+        .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner + span, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner + span {
+          color: #f6f6f7; }
+        .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner + span, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner + span {
+          color: #4f545c; }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner {
+        pointer-events: all;
+        order: 2;
+        height: 24px;
+        width: 42px; }
+        .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner span {
+          background-color: #72767d;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
+          height: inherit;
+          width: inherit;
+          border: 0 !important;
+          border-radius: 14px;
+          overflow: hidden; }
+          .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner span::before, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner span::before {
+            background-color: #000;
+            opacity: 0;
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0; }
+          .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner span::after {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            transition: transform .15s ease-in-out, width .1s ease-in-out, left .1s ease-in-out;
+            transform: none;
+            display: block !important;
+            content: "";
+            height: 18px;
+            width: 18px;
+            margin: 3px;
+            border: 0;
+            border-radius: 9px;
+            position: absolute;
+            top: 0;
+            left: 0; }
+        .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span {
+          background-color: #7289da; }
+          .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span::after {
+            transform: translate3d(18px, 0, 0); }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox:active .checkbox-inner span::before, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox:active .checkbox-inner span::before {
+        opacity: .2; }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox:active .checkbox-inner span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox:active .checkbox-inner span::after {
+        width: 26px; }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox:active .checkbox-inner input[type="checkbox"]:checked + span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox:active .checkbox-inner input[type="checkbox"]:checked + span::after {
+        width: 26px;
+        left: -8px; }
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      cursor: default;
+      margin: 4px 0 0 0; }
+      .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
+        color: #72767d; }
+      .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
+        color: rgba(114, 118, 126, 0.6); }
     .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-control, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-control {
       transition: border-color .15s ease;
       border: 1px solid;
@@ -309,6 +384,10 @@
       border-width: 5px 5px 2.5px;
       transform: rotate(180deg);
       bottom: 3px; }
+    .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select.is-pseudo-focused .Select-value-label, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select.is-pseudo-focused .Select-value-label {
+      color: #f6f6f7; }
+    .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select.is-pseudo-focused .Select-value-label, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select.is-pseudo-focused .Select-value-label {
+      color: #4f545c; }
     .wrapper-VSYYTS .instantInviteModal-5L33Qh .btn, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .btn {
       font-size: 14px;
       font-weight: 500;
@@ -331,7 +410,8 @@
         transition: background-color .17s ease, color .17s ease;
         order: 1; }
         .wrapper-VSYYTS .instantInviteModal-5L33Qh .btn.btn-primary:hover, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .btn.btn-primary:hover {
-          background-color: #677bc4; }
+          background-color: #677bc4;
+          text-decoration: none; }
       .wrapper-VSYYTS .instantInviteModal-5L33Qh .btn.btn-default, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .btn.btn-default {
         background-color: transparent;
         order: 2; }
@@ -345,6 +425,139 @@
     order: 1; }
   .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions .checkbox {
     order: 2; }
+
+.uploadModal-2KN6Mm {
+  height: auto;
+  width: 520px;
+  border-radius: 3px;
+  overflow: visible; }
+  .theme-dark .uploadModal-2KN6Mm {
+    background-color: #36393f;
+    box-shadow: 0 0 0 1px rgba(32, 34, 37, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2); }
+  .theme-light .uploadModal-2KN6Mm {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(186, 188, 191, 0.3), 0 2px 10px 0 rgba(0, 0, 0, 0.1); }
+  .uploadModal-2KN6Mm .inner-1-09ZV {
+    margin: 0;
+    padding: 20px;
+    border: 0;
+    border-radius: 0; }
+    .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ {
+      height: auto;
+      padding: 0 0 20px 0; }
+      .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_ {
+        background-size: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        margin-top: -50px;
+        margin-left: 0;
+        margin-right: 20px; }
+        .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 100px;
+          width: 100px;
+          margin-top: -50px;
+          margin-left: 0;
+          margin-right: 20px;
+          border: 0;
+          border-radius: 3px; }
+          .theme-dark .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+            background-color: #36393f;
+            box-shadow: 0 0 0 1px rgba(32, 34, 37, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2); }
+          .theme-light .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+            background-color: #fff;
+            box-shadow: 0 0 0 1px rgba(186, 188, 191, 0.3), 0 2px 10px 0 rgba(0, 0, 0, 0.1); }
+      .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .description-2rzUJU {
+        display: flex;
+        align-items: center;
+        height: auto;
+        padding: 0 0 15px 0; }
+        .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .description-2rzUJU .filename-1XsE3E {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          height: auto; }
+          .theme-dark .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .description-2rzUJU .filename-1XsE3E {
+            color: #f6f6f7; }
+          .theme-light .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .description-2rzUJU .filename-1XsE3E {
+            color: #4f545c; }
+        .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .description-2rzUJU .filesize-2S0pSZ {
+          display: none; }
+    .uploadModal-2KN6Mm .inner-1-09ZV .comment-1faMgX {
+      margin: 0; }
+      .uploadModal-2KN6Mm .inner-1-09ZV .comment-1faMgX .label-Cfxxz9 {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: .5px;
+        cursor: default;
+        margin: 0 0 10px 0; }
+        .theme-dark .uploadModal-2KN6Mm .inner-1-09ZV .comment-1faMgX .label-Cfxxz9 {
+          color: #b9bbbe; }
+        .theme-light .uploadModal-2KN6Mm .inner-1-09ZV .comment-1faMgX .label-Cfxxz9 {
+          color: #72767d; }
+        .uploadModal-2KN6Mm .inner-1-09ZV .comment-1faMgX .label-Cfxxz9 .optional-3T_cF8 {
+          opacity: 1;
+          margin: 0 0 0 4px; }
+    .uploadModal-2KN6Mm .inner-1-09ZV .channelTextAreaUpload-10Oncb {
+      margin: 0; }
+      .theme-dark .uploadModal-2KN6Mm .inner-1-09ZV .channelTextAreaUpload-10Oncb .inner-3if5cm {
+        background-color: rgba(114, 118, 126, 0.3); }
+      .theme-light .uploadModal-2KN6Mm .inner-1-09ZV .channelTextAreaUpload-10Oncb .inner-3if5cm {
+        background-color: #f6f6f7; }
+  .uploadModal-2KN6Mm .footer-4pOKm8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 0 0 3px 3px; }
+    .theme-dark .uploadModal-2KN6Mm .footer-4pOKm8 {
+      background-color: #2f3136;
+      color: #dcddde;
+      box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0.6); }
+    .theme-light .uploadModal-2KN6Mm .footer-4pOKm8 {
+      background-color: #f6f6f7;
+      color: #72767d;
+      box-shadow: inset 0 1px 0 rgba(247, 247, 248, 0.6); }
+    .uploadModal-2KN6Mm .footer-4pOKm8 .button {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 38px;
+      min-height: 38px;
+      width: auto;
+      min-width: 96px;
+      margin: 0;
+      padding: 2px 16px;
+      border: 0;
+      border-radius: 3px;
+      box-sizing: border-box; }
+      .uploadModal-2KN6Mm .footer-4pOKm8 .button.button-primary {
+        background-color: #7289da;
+        color: #fff;
+        transition: background-color .17s ease, color .17s ease; }
+        .theme-dark .uploadModal-2KN6Mm .footer-4pOKm8 .button.button-primary {
+          color: #fff; }
+        .theme-light .uploadModal-2KN6Mm .footer-4pOKm8 .button.button-primary {
+          color: #fff; }
+        .uploadModal-2KN6Mm .footer-4pOKm8 .button.button-primary:hover {
+          background-color: #677bc4;
+          text-decoration: none; }
+      .uploadModal-2KN6Mm .footer-4pOKm8 .button {
+        background-color: transparent; }
+        .theme-dark .uploadModal-2KN6Mm .footer-4pOKm8 .button {
+          color: #fff; }
+        .theme-light .uploadModal-2KN6Mm .footer-4pOKm8 .button {
+          color: #747f8d; }
+        .uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {
+          text-decoration: underline; }
 
 .container-1WaXoH {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
