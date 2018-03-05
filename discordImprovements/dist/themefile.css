@@ -175,8 +175,9 @@
     .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
       display: flex;
       flex-direction: row-reverse;
+      align-items: center;
       padding: 20px;
-      border-radius: 0; }
+      border-radius: 0 0 3px 3px; }
       .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
         background-color: #2f3136;
         color: #dcddde;
@@ -275,28 +276,43 @@
         color: #b9bbbe; }
       .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group label, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group label {
         color: #72767d; }
-    .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox {
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      cursor: default;
+      margin: 4px 0 0 0; }
+      .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
+        color: #72767d; }
+      .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
+        color: rgba(114, 118, 126, 0.6); }
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner + span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner + span {
+      order: 1; }
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner {
+      order: 2;
+      margin-right: 0; }
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox {
       pointer-events: none;
       display: flex;
-      flex-direction: row; }
-      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner + span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner + span {
+      flex-direction: row;
+      align-items: center; }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner + span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner + span {
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         cursor: default;
-        order: 1;
         flex-grow: 1;
         margin: 0; }
-        .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner + span, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner + span {
+        .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner + span, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner + span {
           color: #f6f6f7; }
-        .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner + span, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner + span {
+        .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner + span, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner + span {
           color: #4f545c; }
-      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner {
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner {
         pointer-events: all;
-        order: 2;
         height: 24px;
-        width: 42px; }
-        .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner span {
+        width: 42px;
+        margin-right: 10px; }
+        .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
           background-color: #72767d;
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
           height: inherit;
@@ -304,7 +320,7 @@
           border: 0 !important;
           border-radius: 14px;
           overflow: hidden; }
-          .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner span::before, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner span::before {
+          .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span::before, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span::before {
             background-color: #000;
             opacity: 0;
             content: "";
@@ -314,7 +330,7 @@
             bottom: 0;
             left: 0;
             right: 0; }
-          .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner span::after {
+          .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span::after {
             background-color: #fff;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
             transition: transform .15s ease-in-out, width .1s ease-in-out, left .1s ease-in-out;
@@ -329,27 +345,22 @@
             position: absolute;
             top: 0;
             left: 0; }
-        .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span {
+        .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner input[type="checkbox"]:checked + span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner input[type="checkbox"]:checked + span {
           background-color: #7289da; }
-          .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox .checkbox-inner input[type="checkbox"]:checked + span::after {
-            transform: translate3d(18px, 0, 0); }
-      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox:active .checkbox-inner span::before, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox:active .checkbox-inner span::before {
+          .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner input[type="checkbox"]:checked + span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner input[type="checkbox"]:checked + span::after {
+            transform: translate3d(18px, 0, 0);
+            height: 18px;
+            width: 18px;
+            border: 0;
+            top: 0;
+            left: 0; }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox:active .checkbox-inner span::before, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox:active .checkbox-inner span::before {
         opacity: .2; }
-      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox:active .checkbox-inner span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox:active .checkbox-inner span::after {
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox:active .checkbox-inner span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox:active .checkbox-inner span::after {
         width: 26px; }
-      .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .checkbox:active .checkbox-inner input[type="checkbox"]:checked + span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .checkbox:active .checkbox-inner input[type="checkbox"]:checked + span::after {
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox:active .checkbox-inner input[type="checkbox"]:checked + span::after, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox:active .checkbox-inner input[type="checkbox"]:checked + span::after {
         width: 26px;
         left: -8px; }
-    .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 20px;
-      cursor: default;
-      margin: 4px 0 0 0; }
-      .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
-        color: #72767d; }
-      .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .control-group .help-text, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .control-group .help-text {
-        color: rgba(114, 118, 126, 0.6); }
     .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-control, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-control {
       transition: border-color .15s ease;
       border: 1px solid;
@@ -388,6 +399,43 @@
       color: #f6f6f7; }
     .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select.is-pseudo-focused .Select-value-label, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select.is-pseudo-focused .Select-value-label {
       color: #4f545c; }
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu-outer, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu-outer {
+      width: calc(100% - 1px);
+      margin-top: -3px; }
+      .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu-outer, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu-outer {
+        background-color: #303237;
+        border-color: #202225;
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3); }
+      .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu-outer, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu-outer {
+        background-color: #fff;
+        border-color: #b9bbbe;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); }
+    .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu::-webkit-scrollbar, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu::-webkit-scrollbar {
+      width: 8px; }
+      .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu::-webkit-scrollbar-thumb, .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu::-webkit-scrollbar-track-piece, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu::-webkit-scrollbar-thumb, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu::-webkit-scrollbar-track-piece {
+        border-radius: 4px; }
+      .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu::-webkit-scrollbar-thumb, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.4); }
+      .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu::-webkit-scrollbar-track-piece, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu::-webkit-scrollbar-track-piece {
+        background-color: transparent; }
+      .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu::-webkit-scrollbar-thumb, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.4); }
+      .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-menu::-webkit-scrollbar-track-piece, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-menu::-webkit-scrollbar-track-piece {
+        background-color: rgba(0, 0, 0, 0.1); }
+    .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-option, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-option {
+      background-color: transparent;
+      color: #f6f6f7; }
+    .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-option, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-option {
+      background-color: rgba(247, 247, 248, 0.3);
+      color: #666; }
+    .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-option.is-focused, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-option.is-focused {
+      background-color: rgba(0, 0, 0, 0.1); }
+    .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-option.is-focused, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-option.is-focused {
+      background-color: #f6f6f7; }
+    .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-option.is-selected, .theme-dark .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-option.is-selected {
+      background-color: rgba(0, 0, 0, 0.2); }
+    .theme-light .wrapper-VSYYTS .instantInviteModal-5L33Qh .Select .Select-option.is-selected, .theme-light .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .Select .Select-option.is-selected {
+      background-color: #dcddde; }
     .wrapper-VSYYTS .instantInviteModal-5L33Qh .btn, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .btn {
       font-size: 14px;
       font-weight: 500;
@@ -425,6 +473,96 @@
     order: 1; }
   .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions .checkbox {
     order: 2; }
+
+.inviteModal-1di4Hk {
+  border-radius: 3px;
+  overflow: hidden; }
+  .theme-dark .inviteModal-1di4Hk {
+    background-color: #36393f;
+    box-shadow: 0 0 0 1px rgba(32, 34, 37, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2); }
+  .theme-light .inviteModal-1di4Hk {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(186, 188, 191, 0.3), 0 2px 10px 0 rgba(0, 0, 0, 0.1); }
+  .theme-dark .inviteModal-1di4Hk .inviteSplash-mZPaJp {
+    background-color: #2f3136; }
+  .theme-light .inviteModal-1di4Hk .inviteSplash-mZPaJp {
+    background-color: #f3f3f4; }
+  .inviteModal-1di4Hk .scroller {
+    background-image: none;
+    background-color: transparent; }
+  .inviteModal-1di4Hk .inviteContent-39Z-bV {
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; }
+  .inviteModal-1di4Hk .avatar-xxxlarge {
+    background-size: cover;
+    order: 1;
+    height: 60px;
+    width: 60px;
+    margin: 0 0 20px 0;
+    position: unset; }
+  .inviteModal-1di4Hk .inviteTitle-2yNtkC {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    cursor: default;
+    order: 2;
+    width: 100%;
+    margin: 0 0 20px 0; }
+    .theme-dark .inviteModal-1di4Hk .inviteTitle-2yNtkC {
+      color: #f6f6f7; }
+    .theme-light .inviteModal-1di4Hk .inviteTitle-2yNtkC {
+      color: #4f545c; }
+  .inviteModal-1di4Hk .inviteBody-1kVhyx {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: default;
+    order: 3;
+    margin: 0;
+    padding: 0; }
+    .theme-dark .inviteModal-1di4Hk .inviteBody-1kVhyx {
+      color: #dcddde; }
+    .theme-light .inviteModal-1di4Hk .inviteBody-1kVhyx {
+      color: #72767d; }
+    .inviteModal-1di4Hk .inviteBody-1kVhyx strong:nth-of-type(1)::before {
+      content: "#"; }
+  .inviteModal-1di4Hk .inviteActions-cvxGuh {
+    order: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% + 14px);
+    margin: auto 0 0 0;
+    padding: 20px 0 0 0;
+    position: unset;
+    bottom: unset;
+    left: unset;
+    right: unset; }
+  .inviteModal-1di4Hk .button-3x7jeY {
+    width: auto;
+    flex-grow: 1; }
+  .inviteModal-1di4Hk .inviteCancel-2dlgcH {
+    opacity: .6;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 8px 0 -10px 0; }
+    .theme-dark .inviteModal-1di4Hk .inviteCancel-2dlgcH {
+      color: #dcddde; }
+    .theme-light .inviteModal-1di4Hk .inviteCancel-2dlgcH {
+      color: #72767d; }
+    .inviteModal-1di4Hk .inviteCancel-2dlgcH:hover {
+      text-decoration: underline; }
 
 .uploadModal-2KN6Mm {
   height: auto;
