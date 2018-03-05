@@ -698,21 +698,58 @@
           text-decoration: underline; }
 
 .container-1WaXoH {
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-  width: 255px; }
+  border: 1px solid;
+  border-radius: 5px;
+  overflow: hidden; }
+  .theme-dark .container-1WaXoH {
+    background-color: #2f3136;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    border-color: rgba(28, 36, 43, 0.6); }
+  .theme-light .container-1WaXoH {
+    background-color: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    border-color: rgba(191, 191, 191, 0.3); }
   .container-1WaXoH header {
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
+    text-align: left;
     text-transform: none;
-    display: flex;
-    justify-content: flex-start; }
-  .theme-dark .container-1WaXoH header {
-    background-color: #35393e;
-    color: #fff;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2); }
-  .theme-light .container-1WaXoH header {
-    color: #737f8d; }
+    justify-content: flex-start;
+    padding: 12px 20px;
+    border-radius: 0; }
+    .theme-dark .container-1WaXoH header {
+      background-color: #35393e;
+      color: #fff;
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2); }
+    .theme-light .container-1WaXoH header {
+      color: #737f8d;
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1); }
+  .container-1WaXoH section {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 0; }
+    .theme-dark .container-1WaXoH section p {
+      color: #dcddde; }
+    .theme-light .container-1WaXoH section p {
+      color: #72767d; }
+    .container-1WaXoH section::before, .container-1WaXoH section::after {
+      display: none; }
+  .container-1WaXoH .popoutBottom-SMkDcV {
+    margin-top: 20px; }
+  .container-1WaXoH hr {
+    display: none; }
+  .container-1WaXoH .debugButton-2WuKUX {
+    opacity: .6;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer; }
+    .theme-dark .container-1WaXoH .debugButton-2WuKUX {
+      color: #dcddde; }
+    .theme-light .container-1WaXoH .debugButton-2WuKUX {
+      color: #72767d; }
+    .container-1WaXoH .debugButton-2WuKUX:hover {
+      text-decoration: underline; }
 
 .userPopout-11hFKo .header-3budic .botTag-1OwMgs {
   background: #7289da;
