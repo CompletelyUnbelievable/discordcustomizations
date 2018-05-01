@@ -10,7 +10,7 @@ $theme-variable: rrv;
   }
 }
 
-.appMount-14L89u .role-3rahR_ {
+.appMount-3VJmYg .role-2irmRk {
   color: #f6f6f7;
   cursor: default;
   display: flex;
@@ -39,7 +39,7 @@ $theme-variable: rrv;
     left: -2px;
     z-index: 3;
   }
-  &.addButton-3RuTE0 {
+  &.addButton-pcyyf6 {
     background-image: getResource("add");
     background-size: 16px;
     background-position: center;
@@ -48,15 +48,15 @@ $theme-variable: rrv;
     cursor: pointer;
     border: 0;
 
-    .addButtonIcon-3GVNfn {
+    .addButtonIcon-1NMJ8u {
       display: none;
     }
   }
-  &.actionButton-2mkkT2 {
+  &.actionButton-VzECiy {
     width: 25px;
     border-color: transparent;
   }
-  .roleName-DUQZ9m {
+  .roleName-32vpEy {
     order: 1;
     height: inherit;
     margin: 0 6px 0 6px;
@@ -65,7 +65,7 @@ $theme-variable: rrv;
     line-height: 25px;
     z-index: 4;
   }
-  .roleCircle-3-vPZq {
+  .roleCircle-3xAZ1j {
     background-image: getResource("close");
     background-size: 10px;
     background-position: center;
@@ -76,7 +76,7 @@ $theme-variable: rrv;
     margin: 0 6px 0 0;
     z-index: 5;
 
-    &:not(.roleCircleButton-sMOdib), svg {
+    &:not(.roleCircleButton-377y0l), svg {
       display: none;
     }
   }
