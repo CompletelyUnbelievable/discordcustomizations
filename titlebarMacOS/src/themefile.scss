@@ -1,7 +1,7 @@
 @import "../../shared";
 @import "resources";
 
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
   display: flex;
   flex-direction: row;
   height: 32px;
@@ -16,16 +16,16 @@
   -webkit-app-region: no-drag;
 
   &:not(:hover) {
-    .winButton-U7zAqI {
+    .winButton-iRh8-Z {
       svg {
         visibility: hidden;
       }
     }
   }
-  .wordmark-2L03Wr {
+  .wordmark-2iDDfm {
     display: none;
   }
-  .winButton-U7zAqI {
+  .winButton-iRh8-Z {
     opacity: 1;
     cursor: default;
     pointer-events: auto;
@@ -90,7 +90,7 @@
   .guilds-wrapper {
     margin-top: 32px;
   }
-  .headerBar-cxbhPD, .title-qAcLxz, .titleCall-3X0yGQ, .notice {
+  .headerBar-UHpsPw, .title-3qD0b-, .titleCall-_b9o8P, .notice-2FJMB4 {
     -webkit-app-region: drag;
 
     &:before {
@@ -105,11 +105,11 @@
       -webkit-app-region: no-drag;
     }
   }
-  .container-2oOGIt {
+  .container-16j22k {
     padding-top: 0;
     top: 0;
   }
-  .container-2oOGIt, .backdrop-2ohBEd, .layer .ui-standard-sidebar-view {
+  .container-16j22k, .backdrop-1ocfXc, .ui-standard-sidebar-view {
     &:before {
       content: '';
       display: block;
@@ -122,12 +122,12 @@
       -webkit-app-region: drag;
     }
   }
-  .title-qAcLxz {
-    .titleText-2IfpkV {
+  .title-3qD0b- {
+    .titleText-3X-zRE {
       -webkit-app-region: no-drag;
     }
     .topic-1KFf6J {
-      &.expandable-1er6r1 {
+      &.expandable-26ClD4 {
         -webkit-app-region: no-drag;
       }
     }

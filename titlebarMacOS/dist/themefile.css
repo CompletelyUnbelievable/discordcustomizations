@@ -1,4 +1,4 @@
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
   display: flex;
   flex-direction: row;
   height: 32px;
@@ -11,11 +11,11 @@
   left: 0;
   z-index: 3001;
   -webkit-app-region: no-drag; }
-  .titleBar-3_fDwJ:not(:hover) .winButton-U7zAqI svg {
+  .titleBar-AC4pGV:not(:hover) .winButton-iRh8-Z svg {
     visibility: hidden; }
-  .titleBar-3_fDwJ .wordmark-2L03Wr {
+  .titleBar-AC4pGV .wordmark-2iDDfm {
     display: none; }
-  .titleBar-3_fDwJ .winButton-U7zAqI {
+  .titleBar-AC4pGV .winButton-iRh8-Z {
     opacity: 1;
     cursor: default;
     pointer-events: auto;
@@ -28,39 +28,39 @@
     position: relative;
     top: 0;
     -webkit-app-region: no-drag; }
-    .titleBar-3_fDwJ .winButton-U7zAqI svg {
+    .titleBar-AC4pGV .winButton-iRh8-Z svg {
       background-size: 8px;
       background-position: center;
       background-repeat: no-repeat; }
-      .titleBar-3_fDwJ .winButton-U7zAqI svg rect, .titleBar-3_fDwJ .winButton-U7zAqI svg polygon {
+      .titleBar-AC4pGV .winButton-iRh8-Z svg rect, .titleBar-AC4pGV .winButton-iRh8-Z svg polygon {
         display: none; }
-  .titleBar-3_fDwJ div:nth-of-type(2) {
+  .titleBar-AC4pGV div:nth-of-type(2) {
     background-color: #fc615d;
     order: 1; }
-    .titleBar-3_fDwJ div:nth-of-type(2) svg {
+    .titleBar-AC4pGV div:nth-of-type(2) svg {
       background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254282518539/btn-close.svg"); }
-    .titleBar-3_fDwJ div:nth-of-type(2):active {
+    .titleBar-AC4pGV div:nth-of-type(2):active {
       background-color: #ca4e4a; }
-  .titleBar-3_fDwJ div:nth-of-type(3) {
+  .titleBar-AC4pGV div:nth-of-type(3) {
     background-color: #34c749;
     order: 3; }
-    .titleBar-3_fDwJ div:nth-of-type(3) svg {
+    .titleBar-AC4pGV div:nth-of-type(3) svg {
       background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254508879872/btn-maximize.svg"); }
-    .titleBar-3_fDwJ div:nth-of-type(3):active {
+    .titleBar-AC4pGV div:nth-of-type(3):active {
       background-color: #2a9f3a; }
-  .titleBar-3_fDwJ div:nth-of-type(4) {
+  .titleBar-AC4pGV div:nth-of-type(4) {
     background-color: #fdbc40;
     order: 2; }
-    .titleBar-3_fDwJ div:nth-of-type(4) svg {
+    .titleBar-AC4pGV div:nth-of-type(4) svg {
       background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254316204035/btn-minimize.svg"); }
-    .titleBar-3_fDwJ div:nth-of-type(4):active {
+    .titleBar-AC4pGV div:nth-of-type(4):active {
       background-color: #ca9633; }
 
 #app-mount .guilds-wrapper {
   margin-top: 32px; }
-#app-mount .headerBar-cxbhPD, #app-mount .title-qAcLxz, #app-mount .titleCall-3X0yGQ, #app-mount .notice {
+#app-mount .headerBar-UHpsPw, #app-mount .title-3qD0b-, #app-mount .titleCall-_b9o8P, #app-mount .notice-2FJMB4 {
   -webkit-app-region: drag; }
-  #app-mount .headerBar-cxbhPD:before, #app-mount .title-qAcLxz:before, #app-mount .titleCall-3X0yGQ:before, #app-mount .notice:before {
+  #app-mount .headerBar-UHpsPw:before, #app-mount .title-3qD0b-:before, #app-mount .titleCall-_b9o8P:before, #app-mount .notice-2FJMB4:before {
     content: ' ';
     display: block;
     height: 4px;
@@ -70,10 +70,10 @@
     left: 0;
     z-index: 3005;
     -webkit-app-region: no-drag; }
-#app-mount .container-2oOGIt {
+#app-mount .container-16j22k {
   padding-top: 0;
   top: 0; }
-#app-mount .container-2oOGIt:before, #app-mount .backdrop-2ohBEd:before, #app-mount .layer .ui-standard-sidebar-view:before {
+#app-mount .container-16j22k:before, #app-mount .backdrop-1ocfXc:before, #app-mount .ui-standard-sidebar-view:before {
   content: '';
   display: block;
   height: calc(32px - 4px);
@@ -83,7 +83,7 @@
   right: 0;
   z-index: 3005;
   -webkit-app-region: drag; }
-#app-mount .title-qAcLxz .titleText-2IfpkV {
+#app-mount .title-3qD0b- .titleText-3X-zRE {
   -webkit-app-region: no-drag; }
-#app-mount .title-qAcLxz .topic-1KFf6J.expandable-1er6r1 {
+#app-mount .title-3qD0b- .topic-1KFf6J.expandable-26ClD4 {
   -webkit-app-region: no-drag; }
