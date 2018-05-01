@@ -16,7 +16,7 @@
   --i-tbw-maximizeimg: url("https://cdn.discordapp.com/attachments/406779086246248449/406779128323506177/btn-maximize.svg");
   --i-tbw-minimizeimg: url("https://cdn.discordapp.com/attachments/406779086246248449/406779128273174529/btn-minimize.svg"); }
 
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
   background-color: var(--i-tbw-bgcolor);
   display: flex;
   height: var(--i-tbw-height);
@@ -24,7 +24,7 @@
   margin: 0;
   padding: 0;
   -webkit-app-region: drag; }
-  .titleBar-3_fDwJ:after {
+  .titleBar-AC4pGV:after {
     content: ' ';
     display: block;
     height: var(--i-tbw-resizeheight);
@@ -37,7 +37,7 @@
     left: 0;
     z-index: 3002;
     -webkit-app-region: no-drag; }
-  .titleBar-3_fDwJ .wordmark-2L03Wr {
+  .titleBar-AC4pGV .wordmark-2iDDfm {
     background-image: var(--i-tbw-logoimg);
     background-size: var(--i-tbw-logosize);
     background-position-x: var(--i-tbw-logooffset);
@@ -50,9 +50,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; }
-    .titleBar-3_fDwJ .wordmark-2L03Wr svg {
+    .titleBar-AC4pGV .wordmark-2iDDfm svg {
       display: none; }
-  .titleBar-3_fDwJ .winButton-U7zAqI {
+  .titleBar-AC4pGV .winButton-iRh8-Z {
     background-size: var(--i-tbw-btnimgsize);
     background-position: center;
     background-repeat: no-repeat;
@@ -63,23 +63,23 @@
     width: var(--i-tbw-btnwidth);
     position: relative;
     top: 0; }
-    .titleBar-3_fDwJ .winButton-U7zAqI svg {
+    .titleBar-AC4pGV .winButton-iRh8-Z svg {
       display: none; }
-    .titleBar-3_fDwJ .winButton-U7zAqI:hover {
+    .titleBar-AC4pGV .winButton-iRh8-Z:hover {
       transition: none; }
-    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover {
+    .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-:hover {
       background-color: var(--i-tbw-closehover); }
-    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:active {
+    .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-:active {
       background-color: var(--i-tbw-closeactive); }
-    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover {
+    .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm:hover {
       background-color: var(--i-tbw-btnhover); }
-    .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:active {
+    .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm:active {
       background-color: var(--i-tbw-btnactive); }
-  .titleBar-3_fDwJ div:nth-of-type(2) {
+  .titleBar-AC4pGV div:nth-of-type(2) {
     background-image: var(--i-tbw-closeimg); }
-  .titleBar-3_fDwJ div:nth-of-type(3) {
+  .titleBar-AC4pGV div:nth-of-type(3) {
     background-image: var(--i-tbw-maximizeimg); }
-  .titleBar-3_fDwJ div:nth-of-type(4) {
+  .titleBar-AC4pGV div:nth-of-type(4) {
     background-image: var(--i-tbw-minimizeimg); }
 
 #app-mount {
