@@ -10,7 +10,7 @@
 
 $emoji-all: collectMaps($emoji-activities, $emoji-flags, $emoji-food, $emoji-nature, $emoji-objects, $emoji-people, $emoji-symbols, $emoji-travel);
 
-.emoji, .autocompleteRowVertical-3_UxVA .icon-3XfMwL {
+.emoji, .autocompleteRowVertical-q1K4ky .icon-3ZzoN7 {
 	@each $twemoji, $blob in $emoji-all {
 		&[src="#{$twemoji}"] {
 			content: url("#{$blob}");
